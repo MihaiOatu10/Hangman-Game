@@ -1,0 +1,7 @@
+﻿<Window x:Class="Hangman.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hangman Game" Height="500" Width="700"
+        WindowStartupLocation="CenterScreen">
+    <ContentControl Content="{Binding CurrentViewModel}" />
+</Window>
